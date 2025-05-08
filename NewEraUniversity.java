@@ -1,11 +1,11 @@
 public class NewEraUniversityDemo {
     public static void main(String[] args) {
-        Student s1 = new Student("Alice", "S001", 20000);
-        Student s2 = new Student("Bob", "S002", 22000);
-        Student s3 = new Student("Charlie", "S003", 21000);
+        Student s1 = new Student("Cruz", "S001", 20000);
+        Student s2 = new Student("Tarno", "S002", 22000);
+        Student s3 = new Student("Tanggol", "S003", 21000);
 
-        Teacher t1 = new Teacher("Dr. Smith", "Computer Science", 50000);
-        Teacher t2 = new Teacher("Dr. Jane", "Information Technology", 52000);
+        Teacher t1 = new Teacher("Jerry Esperanza", "Computer Science", 50000);
+        Teacher t2 = new Teacher("Marc Laureta", "Information Technology", 52000);
 
         Department csDept = new Department("Computer Science");
         csDept.addUnit(t1);
